@@ -1,0 +1,7 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Other folders and files
+.DS_store
+dist/
