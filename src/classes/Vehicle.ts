@@ -39,9 +39,11 @@ class Vehicle implements Driveable {
   // Method to decelerate the vehicle
   decelerate(change: number): void {
     // Check if the vehicle is started
-    if (this.started) {
+    if (this.started && this.currentSpeed - change >= 0) {
       this.currentSpeed -= change;
       console.log(`Vehicle decelerated to ${this.currentSpeed} mph`);
+    } else if (this.started && this.currentSpeed - change < 0) {
+      console.log(`The vehicle speed is already 0 mph`)
     } else {
       console.log('Start the vehicle first');
     }
