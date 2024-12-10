@@ -51,3 +51,6 @@
 
 ## License
 - This project is licensed under the MIT license: [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Link to video demonstration
+https://drive.google.com/file/d/1IvpvxTobMwy7naQ8eA65SUvOr0XKYMG0/view?usp=sharing
