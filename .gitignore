@@ -1,6 +1,6 @@
 # Dependency directories
 node_modules/
-jspm_packages/
+json_packages/
 
 # Other folders and files
 .DS_store
